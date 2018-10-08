@@ -13,4 +13,6 @@ steps:
     displayName: "Install Node.js"
 
   - script: yarn bootstrap
-  - script: yarn test
+  - script: |
+      git config --global core.autocrlf true
+      yarn test
