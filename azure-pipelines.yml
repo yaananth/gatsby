@@ -12,7 +12,4 @@ steps:
       versionSpec: "8.x"
     displayName: "Install Node.js"
 
-  - script: yarn bootstrap
-  - script: |
-      git config --global core.autocrlf true
-      yarn test
+  - script: yarn test
