@@ -1,5 +1,7 @@
 pool:
-  #vmImage: "ubuntu-16.04"
+  #using ubuntu works just fine
+  #vmImage: "ubuntu-16.04" 
+  #using windows will show garbled text
   vmImage: "vs2017-win2016"
 
 steps:
